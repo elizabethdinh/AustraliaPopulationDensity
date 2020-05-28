@@ -1,0 +1,40 @@
+body
+{
+    font-family: Arial;
+	text-align:center;
+	vertical-align:middle;
+}
+
+body .subunit.background
+{
+	fill: #ddc;
+	stroke: #777;
+	stroke-dasharray: 2,2;
+	stroke-linejoin: round;
+}
+
+body path.highlight
+{
+    stroke: #000;
+}
+
+.caption
+{
+	font-weight: bold;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {   
+ 	position: absolute;
+	text-align: center;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: white;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+ul {
+    text-align: left;
+}
